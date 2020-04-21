@@ -13,6 +13,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "pg", ">= 0.18", "< 2.0"
 gem "puma", "~> 4.1"
 # gem "redis", "~> 4.0"
+gem "rubytree", "~> 1.0"
 gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webpacker", "~> 4.0"
@@ -38,3 +39,4 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
 end
+

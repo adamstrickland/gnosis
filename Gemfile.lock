@@ -1001,6 +1001,7 @@ GEM
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
+    json (2.3.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -1094,6 +1095,9 @@ GEM
       rspec-support (~> 3.9)
     rspec-support (3.9.2)
     ruby_dep (1.5.0)
+    rubytree (1.0.0)
+      json (~> 2.1)
+      structured_warnings (~> 0.3)
     rubyzip (2.3.0)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
@@ -1110,6 +1114,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    structured_warnings (0.4.0)
     thor (1.0.1)
     thread_safe (0.3.6)
     turbolinks (5.2.1)
@@ -1151,6 +1156,7 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.2)
   rspec-rails
+  rubytree (~> 1.0)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)

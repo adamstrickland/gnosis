@@ -1,2 +1,3 @@
-<%= link_to "marketing", "marketing" %>
-<%= link_to "technology", "technology" %>
+<% @filesystem.each do |key, value| %>
+  <%= link_to key, value %><br/>
+<% end %>

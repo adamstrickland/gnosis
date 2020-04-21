@@ -77,9 +77,8 @@ If you're not sure what these steps mean, you're in the wrong section (hint: go
 application.
 2. Configure this application to be hosted somewhere; you'll need to provide the
 following environment variables:
-  - `AWS_ACCESS_KEY_ID`
-  - `AWS_SECRET_ACCESS_KEY`
-  - `AWS_S3_BUCKET`
+  - `GNOSIS_AWS_ACCESS_KEY_ID`
+  - `GNOSIS_AWS_SECRET_ACCESS_KEY`
 3. Provision a database; configure the app to use that database via the
 `DATABASE_URL` environment variable.
 4. Provision and configure an Auth0-compatible authz/authn solution. Configure

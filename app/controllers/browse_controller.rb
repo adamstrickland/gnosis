@@ -1,8 +1,7 @@
 class BrowseController < ApplicationController
   def index
-    context = {}
-
-    presenter = ::BrowserPresenter.new(context)
+    filesystem = ::S3Filesystem.new
+    presenter = ::BrowserPresenter.new(filesystem)
 
     @filesystem = presenter.call
   end

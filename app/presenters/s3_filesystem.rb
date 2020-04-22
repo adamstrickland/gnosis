@@ -7,12 +7,12 @@ class S3Filesystem
                                     access_key_id: ENV.fetch("GNOSIS_AWS_ACCESS_KEY_ID"),
                                     secret_access_key: ENV.fetch("GNOSIS_AWS_SECRET_ACCESS_KEY")
     bucket_name = ENV.fetch("GNOSIS_AWS_S3_BUCKET", "gnosis-files")
-    @bucket = @client.list_buckets.buckets.find{ _1.name == bucket_name }
+    @bucket = @client.list_buckets.buckets.find{ _1["name"] == bucket_name }
   end
 
   def paths
     nodes.map do |node|
-      node.key
+      node["key"]
     end
   end
 
@@ -22,10 +22,10 @@ class S3Filesystem
               :bucket
 
   def object_list
-    client.list_objects_v2(bucket: bucket.name)
+    client.list_objects_v2(bucket: bucket["name"])
   end
 
   def nodes
-    object_list.contents
+    object_list["contents"]
   end
 end

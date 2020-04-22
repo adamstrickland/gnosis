@@ -1,0 +1,37 @@
+{
+  "is_truncated": false,
+  "contents": [
+    {
+      "key": "marketing/",
+      "last_modified": "2020-04-18T16:28:17.000Z",
+      "etag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+      "size": 0,
+      "storage_class": "STANDARD"
+    },
+    {
+      "key": "marketing/mission.md",
+      "last_modified": "2020-04-18T16:33:52.000Z",
+      "etag": "\"aa071d7499d9b009b3de80fd24d8ff06\"",
+      "size": 42,
+      "storage_class": "STANDARD"
+    },
+    {
+      "key": "technology/",
+      "last_modified": "2020-04-18T16:28:01.000Z",
+      "etag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+      "size": 0,
+      "storage_class": "STANDARD"
+    },
+    {
+      "key": "technology/teams.md",
+      "last_modified": "2020-04-18T16:32:36.000Z",
+      "etag": "\"bee1080e0ad733cc9c6d2736adbfaa91\"",
+      "size": 163,
+      "storage_class": "STANDARD"
+    }
+  ],
+  "name": "gnosis-files-development",
+  "prefix": "",
+  "max_keys": 1000,
+  "key_count": 4
+}
